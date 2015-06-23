@@ -14,8 +14,11 @@ Should support:
 - [easy] give error on `this` (OOP construct) [done]
 - [easy] give error on `class` (OOP construct) [done]
 - [easy] give error on `new` (OOP construct) [done]
+- [easy] give error on `super` (OOP construct) [done]
 - [easy] give error `var` (unclear scoping) [done]
+- [easy] give error on function expression (unclear scoping) [done]
 - give error when assigning value to an argument (only allow values from current function scope) [done... or not?]
+- function should always have a return (functional) [done]
 
 - give error on `Array.prototype.push` (mutation)
 - give error on `Array.prototype.shift`  (mutation)
@@ -25,6 +28,6 @@ Should support:
 - give error on `Array.prototype.copyWithin` (mutation)
 - give error on `Array.prototype.pop` (mutation)
 - give error on `Array.prototype.reverse` (mutation)
-- function should always have a return (functional)
 
-- what about
+
+- what am I missing...
