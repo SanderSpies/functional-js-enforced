@@ -11,12 +11,12 @@ How to implement
 
 Should support:
 ---
-- [easy] give error on `this` (OOP construct)
-- [easy] give error on `class` (OOP construct)
-- [easy] give error on `new` (OOP construct)
-- [easy] give error `var` (implicit hoisting behaviour)
+- [easy] give error on `this` (OOP construct) [done]
+- [easy] give error on `class` (OOP construct) [done]
+- [easy] give error on `new` (OOP construct) [done]
+- [easy] give error `var` (unclear scoping) [done]
+- give error when assigning value to an argument (only allow values from current function scope) [done... or not?]
 
-- give error when assigning value to an argument (only allow values from current scope)
 - give error on `Array.prototype.push` (mutation)
 - give error on `Array.prototype.shift`  (mutation)
 - give error on `Array.prototype.sort` (mutation)
@@ -26,4 +26,5 @@ Should support:
 - give error on `Array.prototype.pop` (mutation)
 - give error on `Array.prototype.reverse` (mutation)
 - function should always have a return (functional)
-- add standard helper function `yield sleep(time)` to be able to remove setInterval, setTimeout (unclear results)
+
+- what about
