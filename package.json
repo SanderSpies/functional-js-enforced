@@ -1,5 +1,5 @@
 {
-  "name": "function-js-enforced",
+  "name": "functional-js-enforced",
   "main": "lib/index.js",
   "version": "0.0.1",
   "dependencies": {

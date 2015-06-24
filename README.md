@@ -1,33 +1,32 @@
 functional-js-enforced
 ===
-An experiment to enforce functional programming within JavaScript at build time.
+An experimental babel-plugin to enforce functional programming within JavaScript at build time.
 
-Take ES6 as a given.
-
-How to implement
+What does it do?
 ---
-- babel-plugin
-- wondering how far scoping goes - does it give everything that's needed?
+- give error on `this` (OOP construct)
+- give error on `class` (OOP construct)
+- give error on `new` (OOP construct)
+- give error on `super` (OOP construct)
+- give error `var` (unclear scoping)
+- give error on function expression (unclear scoping)
+- give error when assigning value to a variable outside the current function block
+- function should always have a return as last statement (functional)
 
-Should support:
+(warning shotgun approach here)
+- give error on `*.push` (mutation)
+- give error on `*.shift`  (mutation)
+- give error on `*.sort` (mutation)
+- give error on `*.splice` (mutation)
+- give error on `*.unshift` (mutation)
+- give error on `*.copyWithin` (mutation)
+- give error on `*.pop` (mutation)
+- give error on `*.reverse` (mutation)
+
+Suggestions? Contributions?
 ---
-- [easy] give error on `this` (OOP construct) [done]
-- [easy] give error on `class` (OOP construct) [done]
-- [easy] give error on `new` (OOP construct) [done]
-- [easy] give error on `super` (OOP construct) [done]
-- [easy] give error `var` (unclear scoping) [done]
-- [easy] give error on function expression (unclear scoping) [done]
-- give error when assigning value to an argument (only allow values from current function scope) [done... or not?]
-- function should always have a return (functional) [done]
+Are very welcome!
 
-- give error on `Array.prototype.push` (mutation)
-- give error on `Array.prototype.shift`  (mutation)
-- give error on `Array.prototype.sort` (mutation)
-- give error on `Array.prototype.splice` (mutation)
-- give error on `Array.prototype.unshift` (mutation)
-- give error on `Array.prototype.copyWithin` (mutation)
-- give error on `Array.prototype.pop` (mutation)
-- give error on `Array.prototype.reverse` (mutation)
-
-
-- what am I missing...
+License
+---
+MIT
