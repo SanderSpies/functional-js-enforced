@@ -10,7 +10,7 @@ What does it do?
 - give error on `super` (OOP construct)
 - give error `var` (unclear scoping)
 - give error on function expression (unclear scoping)
-- give error when assigning value to a variable outside the current function block
+- give error when assigning value to a variable outside the current function block (function purity)
 - function should always have a return as last statement (functional)
 
 (warning shotgun approach here)
@@ -22,6 +22,7 @@ What does it do?
 - give error on `*.copyWithin` (mutation)
 - give error on `*.pop` (mutation)
 - give error on `*.reverse` (mutation)
+
 
 Suggestions? Contributions?
 ---
