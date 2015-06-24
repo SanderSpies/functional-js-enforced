@@ -12,6 +12,7 @@ What does it do?
 - give error on function expression (unclear scoping)
 - give error when assigning value to a variable outside the current function block
 - function should always have a return as last statement (functional)
+- function should only have one return statement
 
 (warning shotgun approach here)
 - give error on `*.push` (mutation)
