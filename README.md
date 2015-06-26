@@ -2,6 +2,10 @@ functional-js-enforced
 ===
 An experimental babel-plugin to enforce functional programming within JavaScript at build time.
 
+Usage
+---
+
+
 What does it do?
 ---
 - give error on `this` (OOP construct)
